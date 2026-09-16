@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python cache / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+
+*.log
+
+# =========================
+# IDEs / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Packaging
+# =========================
+
+pip-wheel-metadata/
+*.whl
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Local Database
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
